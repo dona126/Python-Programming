@@ -1,5 +1,5 @@
-#floor fn - rounds down
-#ceil fn - rounds up
+#floor function - rounds down
+#ceil function - rounds up
 
 import math
 num=12.3
@@ -9,5 +9,3 @@ print("math.floor(num2)", math.floor(num2))
 print("math.ceil(num)", math.ceil(num))
 print("math.ceil(num2)", math.ceil(num2))
 
-#floor fn - rounds down
-#ceil fn - rounds up
