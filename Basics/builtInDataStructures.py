@@ -13,6 +13,9 @@ element=myList.pop(3)#To remove value at the index specified of the list.
 print(element)
 print(myList)
 
+myList.remove(1)#To remove any particular element from  list.
+print(myList)
+
 myList7=[1,2,3,99,6]
 myList7.sort()
 print(myList7)
@@ -23,9 +26,6 @@ print("len: ",len(myList7))
 
 print("new list",[1,2]+[55,67])#Concatenation
 print("new..new list",[1,2]*3)
-
-myList.remove(1)#To remove any particular element from  list.
-print(myList)
 
 for ele in [11,2,3,3]:
  print(ele)
