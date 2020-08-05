@@ -9,7 +9,7 @@ print(myList)
 myList.insert(0,"mother")#To add value to list by giving the index(index 0 is given here)
 print(myList)
 
-element=myList.pop()#To remove value at end of list.
+element=myList.pop(3)#To remove value at the index specified of the list.
 print(element)
 print(myList)
 
