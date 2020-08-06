@@ -1,11 +1,9 @@
-#for loop(increment done automatically)
-
+#for loop
 myList=[1,2,3,"meera"]
 for x in myList:
  print(x)
 
-
-#while loop(increment not done automatically)
+#while loop
 i=0
 while(i<4):
  print(myList[i])
