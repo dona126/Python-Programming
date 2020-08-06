@@ -10,7 +10,7 @@ i=1
 l1=[]
 l2=[]
 while((i<test) or (i==test)):
-    n=int(input("Enter number of boys:(same as the number of girls)"))
+    n=int(input("Enter number of boys/girls"))
     j=1
     while((j<n) or (j==n)):
         h=int(input())
@@ -19,7 +19,7 @@ while((i<test) or (i==test)):
         j=j+1
     j=1
     while((j<n) or (j==n)):
-        h=int(input())
+        h=int(input("Enter height of %d boys/girls:", n))
         l2.append(h)
         l2.sort()
         j=j+1
