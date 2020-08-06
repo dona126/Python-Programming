@@ -1,7 +1,7 @@
 #A classroom has several students, half of whom are boys and half of whom are girls.
 #You need to arrange all of them in a line for the morning assembly such that the following conditions are satisfied:
-  1.The students must be in order of non-decreasing height.
-  2.Two boys or two girls must not be adjacent to each other.
+#  1.The students must be in order of non-decreasing height.
+#  2.Two boys or two girls must not be adjacent to each other.
 #You have been given the heights of the boys in the array and the heights of the girls in the array . Find out whether you can arrange them in an order which satisfies
 #the given conditions. Print "YES" if it is possible, or "NO" if it is not.
 
