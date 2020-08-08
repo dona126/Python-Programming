@@ -12,3 +12,4 @@ for line in fh:
             lst.append(x)
 lst.sort()
 print(lst)
+fh.close()
