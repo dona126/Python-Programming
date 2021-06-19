@@ -1,9 +1,8 @@
-# There is a large pile of socks that must be paired by color. Given an array of integers
-# representing the color of each sock, determine how many pairs of socks with matching colors
-# there are.
-
+# Given an array of integers representing the color of each sock, find how many pairs of socks with matching colors are there.
 # Example
 #arr = [1, 2, 1, 2, 1, 3, 2, 10, 10, 80, 80]
+
+
 import math
 def socksMatching(arr):
     # Write your code here
