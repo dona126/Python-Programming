@@ -1,4 +1,4 @@
-# Given an array of integers representing the color of each sock, find how many pairs of socks with matching colors are there.
+#An array of integers representing the color of each sock is given. Find how many pairs of socks with matching colors are there.
 # Example
 #arr = [10, 10, 8, 8, 1, 1, 1, 1, 1, 5]
 #Output: 4
