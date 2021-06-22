@@ -1,37 +1,22 @@
-##### Challenge 1: Am I prime or not?
-##### Problem Statement: Implement a pure function which takes a natural number as an input and returns logical true if the said number is a prime number and logical false otherwise.
-
+##### Challenge 2: Spell it out.
+##### Problem Statement: Implement a pure function that takes a whole number as an argument and returns the number in words. For eg. 26 would return a string ‘twenty six’.
+##### Author: Dona Maria Sunny (S6, CSE)
 # Code
 ```python
-def is_prime(number):
-    flag=0
-    if(number<=0):
-        return("Invalid input! Enter a natural number.")
-    elif(number==1):
-        return("1 is neither a prime nor a composite number.")
-    elif(number==2):
-        return(True)
-    else:
-        for i in range(2, number):
-            if(number%i == 0):
-                return(False)
-            else:
-                flag=1
-        if(flag==1):
-            return(True)            
+def spell_it(number):
+    from num2words import num2words
+    words=num2words(number)
+    words=words.replace(",","")
+    words=words.replace("-"," ")
+    return(words)
+    
 
-number=int(input("Prime Number Checker.\n Enter natural number to be checked?"))
-print(is_prime(number))
+number=int(input("Spell it out.\n Enter the whole number whose words needed:"))
+print(spell_it(number))
 ```
 # Explanation
-Prime number is a number that is divisible only by itself and 1.
-1. User enters the number to be checked, for prime or not.
-2. Entered value is passes to the function and now the function **is_prime** is called.
-3. Inside the function **is_prime** _flag_ value is set to 0 and the following happens :
-   * If the entered number is negative or less than 0 then **Invalid input! Enter a natural number.** is the output.
-   * If the entered number is 1 then **1 is neither a prime nor a composite number.** is the output.
-   * If the entered number is 2 then **logical true** is the output.
-   * If the entered number is greater than 2 then that ```number``` is divided by numbers ranging from 2 to one less than the ```number```. 
-   
-     If the ```number``` is divisible by any numbers in the range then **logical false** is the output. Else, if the ```number``` is not divisible _flag_ value is set to          1 and **logical true** is given as the output.
-
+1. User enters the ```number``` whose words need to be displayed .
+2. Entered ```number``` is passed to the function and now the function **spell_it** is called.
+3. Inside the function **spell_it** the following happens :
+   * The module **num2words** is imported after installing it.
+   * To get the output as the format given in the question **replace()** is used. So "-" and "," is absent in the output returned. 
